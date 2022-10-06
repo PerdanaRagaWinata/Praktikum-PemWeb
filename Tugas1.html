@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Tugas1</title>
+    <style>
+        table, th, td {
+                border: 1px solid black;
+                width: 350px;
+                height: 20px;
+             }
+    </style>
+</head>
+<body>  
+    <main>
+        <img src="Raga.jpg" alt="ini gue cosplay" width="200" height="250">
+        <header>
+            <h1>Hai, saya Perdana Raga Winata</h1>
+        </header>
+        <p>Mahasiswa Teknik Informatika ITERA 2019</p>
+
+        <nav>
+            <a href="/me/">Tentang Saya</a>
+            <br>
+            <a href="/kerjo/">Riwayat Pendidikan</a>
+            <br>
+            <a href="/callme/">Hubungi Saya</a>
+        </nav>
+
+        <h2>Tentang Saya</h2>
+        <p>
+            Saya adalah mahasiswa ITERA prodi Teknik informatika 2019, sekarang saya sudah berada di
+            Smester 7, hobi saya musik dan bermain Sulap. Saya memilih minat bidang 
+            RPLSI (Rekayasa Perangkat Lunak dan Sistem Informasi) karena saya ingin fokus dibidang Rekayasa Perangkat Lunak, tapi jujur
+            saya masih bingung antara memilih RPLSI (Rekayasa Perangkat Lunak dan Sistem Informasi) atau KASPER (Keamanan Siber dan Pervasif Pemrograman), 
+            yang bisa saya lakukan sekarang hanyalah menjalani hidup dengan apa yang ada di depan saya 
+            karena kita tidak tahu kapan kita akan mati.
+        </p>
+        <video width="320" height="240" controls>
+            <source src="saya_fingerstyle.mp4" type="video/mp4">
+        </video>
+        <p>video saya</p>
+
+        <h2>Riwayat Pendidikan</h2>
+        <table>
+            <tr>
+                <th rowspan="2">no</th>
+                <th rowspan="2">pendidikan</th>
+                <th colspan="2">waktu</th>               
+            </tr>
+            <tr>
+                <th>mulai</th>
+                <th>selesai</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>ITERA</td>
+                <td>2019</td>
+                <td>sekarang</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>SMAN 1 Pagelaran</td>
+                <td>2016</td>
+                <td>2019</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>SMPN 1 Pringsewu</td>
+                <td>2016</td>
+                <td>2013</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>SD Muhammadiyah Pringsewu</td>
+                <td>2013</td>
+                <td>2007</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>TK Aisyah 1 Pringsewu</td>
+                <td>2007</td>
+                <td>2006</td>
+            </tr>
+         </table>
+        <h2>hubungi saya</h2>
+        <p>email : perdana.119140087@student.itera.ac.id
+            <br>
+           no wa : 0882269941391 
+        </p>
+        <form action="#">
+            <h2>kenapa menghubungi saya?</h2>
+            <p>Masukkan nama mu</p>
+            <label for="formnama">nama: </label>
+            <input type="text" name="nama" id="formnama">
+            <br>
+            <br>
+            <p>Sudah kenal dengan saya?</p>
+            <input type="radio" id="sudah" name="jawab_pertanyaan" value="sudah">
+            <label for="sudah">sudah</label>
+            <br>
+            <input type="radio" id="belum" name="jawab_pertanyaan" value="sudah">
+            <label for="belum">belum</label>
+            <br>
+            <br>
+            <p>Mengapa Ingin menhubungi saya saya?</p>
+            <input type="checkbox" id="ini" name="apa" value="ini">
+            <label for="ini">Ingin mengenal saya lebih dekat</label>
+            <br>
+            <input type="checkbox" id="itu" name="apa" value="itu">
+            <label for="itu">ingin belajar ngoding ama saya</label>
+            <br>
+            <input type="checkbox" id="anu" name="apa" value="anu">
+            <label for="anu">pengen tau aja</label>
+            <br>
+            <button type="button">kirim</button>            
+        </form>
+        <br>
+    </main>
+</body>
+</html>
